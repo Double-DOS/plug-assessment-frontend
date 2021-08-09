@@ -1,0 +1,12 @@
+
+  .scroll{
+      overflow: auto;
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 10px 10px;
+      -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
